@@ -1,0 +1,39 @@
+body {
+    font-family: inherit;
+    font-size: 18px;
+}
+
+header, footer{
+    background-color: #808080;
+}
+
+.site-title {
+    color: #800000;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.hobbies {
+    list-style: square;
+}
+
+.hobbies li:nth-child(odd) {
+    background-color: #87CEEB;
+}
+
+nav .nav{
+    list-style: none;
+}
+
+nav .nav li a{
+    text-decoration: none;
+    background-color: #F5F5F5;
+    border: 1px solid;    
+}
+
+nav .nav li a:hover,
+nav .nav li a:focus {
+    background-color: #FFA500;
+}
