@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* My CSS Style */
+
+/* body {
+    background-color: #222;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.color2 {
+    background-color: #c78c06;
+    margin: 10px;
+}
+
+.space-logo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+li {
+    text-align: center;
+}
+
+.nav1 {
+    padding-bottom: 20px;
+}
+
+.c1 {
+    text-decoration: none;
+    color: #222;
+}
+
+.nav2 {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.nav3 {
+    padding-bottom: 30px;
+}
+
+.c2 {
+    text-decoration: none;
+    color: #c78c06;
+}
+
+input {
+    padding-left: 5px;
+    height: 35px;
+    margin-left: 10px;
+    width: 91%;
+}
+
+form.srch-btn button {
+    float: right;
+    margin-right: 10px;
+    width: 5%;
+    height: 35px;
+    background: #222;
+    color: #c78c06;
+    border: 1px solid #c78c06;
+    font-size: 20px;
+    cursor: pointer;
+} */
+
+/* main banner & overlaying */
+
+/* #main-banner {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.banner-overlay {
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 76%;
+    position: absolute;
+    top: 12%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 5%;
+	margin-left: 10px;
+    line-height: 1.5;
+}
+
+.p1 {
+    color: white;
+    margin-top: 5%;
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 1.2;
+} */
+
+/* Connect with Us button */
+/* .btn1 {
+    background-color:#c78c06;
+    border: none;
+    margin-left: 10px;
+    margin-top: 5%;
+    width: 35%;
+    height: 20%;
+    text-align: center;
+    font-size: 16px;
+} */
+
+/* About Us */
+/* .bgcolor-au {
+    background-color: #ffe6ac;
+    padding: 10px;
+    margin-top: -3px;
+}
+
+.au-banner {
+    display: block;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.p2 {
+    font-size: 12px;
+}
+
+.p3 {
+    font-size: 12px;
+    padding-bottom: 20px;
+} */
