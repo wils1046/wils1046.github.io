@@ -61,7 +61,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-weight: 700;
+    font-weight: 750;
     margin-left: 10px;
 }
 
@@ -87,6 +87,7 @@ p, label, button, table, input {
 
 .container {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -96,14 +97,12 @@ p, label, button, table, input {
 
 .color2 {
     background-color: #c78c06;
-    width: 97%;
     margin: 10px;
     margin-bottom: 0;
 }
 
 li a {
     display: block;
-    /* width: 100%; */
     color: #c78c06;
     text-decoration: none;
     text-align: center;
@@ -130,7 +129,7 @@ li a:hover:not(.c1) {
 form.search-form {
     display: grid;
     grid-template-columns: 92% 5%;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 form button {
@@ -154,6 +153,47 @@ form button {
     height: auto;
 }
 
+.banner-overlay {
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    max-width: 100%;
+    height: 77%;
+    top: 11%;
+}
+
+h1 {
+    color: white;
+    margin-top: 6%;
+}
+
+.p1 {
+    color: white;
+    margin-top: 2%;
+}
+
+/* Connect with Us button */
+.btn1 {
+    background-color: #c78c06;
+    width: 230px;
+    height: 80px;
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.fa-solid.fa-caret-right {
+    font-size: 25px;
+    padding-left: 5%;
+}
+
 section#AboutUs img {
     width: 100%;
     height: 100%;
@@ -163,47 +203,6 @@ section.ov img {
     width: 100%;
     height: 100%;
 }
-
-/* .banner-overlay {
-    position: relative;
-}
-
-.overlay {
-    width: 100%;
-    height: 76%;
-    position: absolute;
-    top: 12%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 3rem;
-    margin-top: 5%;
-	margin-left: 10px;
-    line-height: 1.5;
-}
-
-.p1 {
-    color: white;
-    margin-top: 5%;
-    font-size: 12px;
-    margin-left: 10px;
-    line-height: 1.2;
-} */
-
-/* Connect with Us button */
-/* .btn1 {
-    background-color:#c78c06;
-    border: none;
-    margin-left: 10px;
-    margin-top: 5%;
-    width: 35%;
-    height: 20%;
-    text-align: center;
-    font-size: 16px;
-} */
 
 /* About Us */
 /* .bgcolor-au {
