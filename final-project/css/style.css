@@ -102,7 +102,8 @@ p, label, button, table, input {
 }
 
 li a {
-    display: block;
+    display: flex;
+    flex-direction: column;
     color: #c78c06;
     text-decoration: none;
     text-align: center;
@@ -127,59 +128,49 @@ li a:hover:not(.c1) {
 }
 
 form.search-form {
-    display: grid;
-    grid-template-columns: 92% 5%;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
     margin-bottom: 10px;
 }
 
+#search {
+    flex: 92%;
+}
+
 form button {
+    flex: auto;
+    margin-right: 10px;
     margin-left: 0;
-    height: 35px;
     border: 1px solid #c78c06;
     background-color: #222;
     cursor: pointer;
-    margin-right: -10px;
-}
-
-.fa-solid.fa-magnifying-glass {
     font-size: 20px;
     color: #c78c06;
 }
 
 /* main banner & overlaying */
 
-#main-banner {
-    max-width: 100%;
-    height: auto;
-}
-
 .banner-overlay {
     position: relative;
+    background-image: url(../images/main-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    padding: 10% 0;
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    max-width: 100%;
-    height: 77%;
-    top: 11%;
-}
-
-/* .main-banner {
-    background-image: url(../images/main-banner.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-} */
-
-h1 {
-    color: white;
-    margin-top: 6%;
+    position: relative;
+    margin: 5% 0;
+    padding: 5% 0 ;
 }
 
 .p1 {
-    color: white;
     margin-top: 2%;
 }
 
@@ -192,8 +183,6 @@ h1 {
     text-align: center;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 
 /* About Us */
@@ -202,14 +191,12 @@ h1 {
 }
 
 #AboutUs {
-    padding-bottom: 3%;
+    padding: 10px;
 }
 
 #AboutUs img {
     width: 100%;
     height: 100%;
-    /* margin: 10px; */
-    /* fix the margin */
 }
 
 .au-h2 {
@@ -493,4 +480,20 @@ footer a {
 
 .f-margin {
     margin-bottom: 10px;
+}
+
+/* Media Query for Desktop */
+
+@media screen and (min-width: 760px) {
+
+    /* .color2 {
+        display: none;
+    }
+
+    .dt-color2 {
+        display: block;
+        margin: 10px;
+        width: 500px;
+    } */
+
 }
